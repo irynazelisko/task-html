@@ -1,0 +1,35 @@
+.wrapper{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.position-name {
+    font-weight: bold ;
+}
+.name {
+    font-style:italic;
+}
+th {
+ text-transform: uppercase   ;
+}
+.description {
+    text-transform: uppercase;
+}
+.description1{
+    text-transform: uppercase;
+}
+a{
+    color: #00f;
+    text-decoration: underline;
+}
+a:visited{
+    color: #005;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.items{
+    list-style-type: square;
+}
