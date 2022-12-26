@@ -2,20 +2,28 @@
     color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
+.border-image {
+    border: 2px solid aquamarine;
+    padding: 10px
+}
 .position-name {
     font-weight: bold ;
+    border-bottom: 1px solid aquamarine
 }
 .name {
     font-style:italic;
+    border-bottom: 1px solid aquamarine;
 }
 th {
- text-transform: uppercase   ;
+ text-transform: uppercase;
+ background-color: rgb(160, 247, 238);
+}
+.table-color{
+    background-color: rgb(226, 249, 247);
 }
 .description {
     text-transform: uppercase;
-}
-.description1{
-    text-transform: uppercase;
+    background-color: rgb(160, 247, 238);
 }
 a{
     color: #00f;
@@ -32,4 +40,8 @@ a:hover {
 
 .items{
     list-style-type: square;
+    border-bottom: 1px solid aquamarine;
+}
+.achievement-items{
+    border-bottom: 1px solid aquamarine;
 }
