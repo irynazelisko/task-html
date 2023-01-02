@@ -25,7 +25,6 @@ align-items: center;
     font-style:italic;
     border-bottom: 1px solid aquamarine;
 }
-
        
 
 /* work expirience */
@@ -41,8 +40,8 @@ th {
     text-transform: uppercase;
     background-color: rgb(160, 247, 238);
 }
-      
-
+    
+ /*links*/
 
 a{
     color: #00f;
