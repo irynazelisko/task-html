@@ -3,7 +3,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header-paragraph{
+.paragraph{
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -25,9 +25,7 @@ align-items: center;
     font-style:italic;
     border-bottom: 1px solid aquamarine;
 }
-.hire-me{
-    display: none
-}
+
        
 
 /* work expirience */
