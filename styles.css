@@ -35,8 +35,6 @@ th {
     background-color: rgb(160, 247, 238);
 }
       
-
-
 a{
     color: #00f;
     text-decoration: underline;
@@ -50,13 +48,11 @@ a:hover {
     text-decoration: none;
 }
      
-
 /* skills */
 .items{
     list-style-type: square;
 }
-       
-     
+           
 .border-bottom {
     border-bottom: 1px solid aquamarine; 
 }
