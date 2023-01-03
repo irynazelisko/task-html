@@ -16,11 +16,9 @@ align-items: flex-start;
 
 .position-name {
     font-weight: bold ;
-    border-bottom: 1px solid aquamarine; 
 }
 .name {
     font-style:italic;
-    border-bottom: 1px solid aquamarine; 
 }
 
 /* work expirience */
@@ -56,10 +54,9 @@ a:hover {
 /* skills */
 .items{
     list-style-type: square;
-    border-bottom: 1px solid aquamarine; 
 }
        
      
-.achievement-items {
+.border-bottom {
     border-bottom: 1px solid aquamarine; 
 }
