@@ -6,27 +6,22 @@
 .header-paragraph{
 display: flex;
 justify-content: space-between;
-align-items: center;
+align-items: flex-start;
 }
 
 .image img {
-   width: 100px;
-    height: 100px;
     border: 2px solid aquamarine;
     padding: 10px  
 }
 
 .position-name {
     font-weight: bold ;
-    border-bottom: 1px solid aquamarine
-   
+    border-bottom: 1px solid aquamarine; 
 }
 .name {
     font-style:italic;
-    border-bottom: 1px solid aquamarine;
+    border-bottom: 1px solid aquamarine; 
 }
-
-       
 
 /* work expirience */
 th {
@@ -61,11 +56,10 @@ a:hover {
 /* skills */
 .items{
     list-style-type: square;
-    border-bottom: 1px solid aquamarine;
+    border-bottom: 1px solid aquamarine; 
 }
        
      
-/* achiements */
-.achievement-items{
-    border-bottom: 1px solid aquamarine;
+.achievement-items {
+    border-bottom: 1px solid aquamarine; 
 }
