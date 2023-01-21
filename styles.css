@@ -15,6 +15,7 @@
     padding-right: 20px;
     padding-top: 30px;
 }
+
 .info-content{
     padding-left: 20px;
     padding-right: 20px;
@@ -30,6 +31,7 @@
 }
 .image{
     padding-bottom: 10px;
+    padding-top: 20px;
 }
 
 .name {
@@ -38,6 +40,17 @@
 .surname{
     color: darkblue;
 }
+.link{
+    color: #1C2E8C;
+    font-size: 20px;
+}
+.link:hover{
+    text-decoration: none;
+}
+.link:visited{
+    color: black;
+}
+
 .side-border{
     border-bottom: 6px solid #1E1E1E;
     width: 289px;
@@ -96,5 +109,3 @@
     font-size: 14px;
     font-weight: 400;
 }
-
-

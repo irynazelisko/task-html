@@ -1,0 +1,180 @@
+/*work with form*/
+
+input,
+select, 
+textarea {
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.container{
+    max-width: 1024px;
+    margin: auto;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-style: normal;
+    background: #ffffff;
+    padding-bottom: 20px;
+   
+}
+.main-title{
+    color: #0048D9 ;
+}
+.main-subtitle{
+    color: #002266;
+}
+
+table {
+    border: 0.5px solid #002266;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+table th {
+font-weight: 600;
+border: 1px solid #002266;
+padding: 10px;
+}
+
+table td{
+font-weight: 300;
+border: 1px solid #002266;
+padding: 10px;
+}
+
+.form{
+    margin-top: 20px;
+}
+fieldset {
+    border: solid 1px #002266;
+    border-radius: 10px;
+}
+.title-legend{
+    color: #002266;
+    font-weight: 500;
+}
+input[type="text"],
+select,
+textarea {
+    display: block;
+    margin-top: 10px;
+    min-width: 460px;
+    font-size: 16px;
+    background: #F8FAFC;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid{
+    border: 1px solid #ED0131;
+    border-radius: 4px;
+} 
+
+input:valid ,
+select:valid,
+textarea:valid {
+    border: 1px solid #0E6245;
+    border-radius: 4px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    color: #6F7482;
+}
+.required-pin {
+    color: #ED0131;
+}
+
+input[type="text"]::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #B8BCCA;
+}
+p {
+    display: none;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+input:invalid + .error-message,
+textarea:invalid +.error-message,
+select:invalid +.error-message{
+    display: block;
+}
+input:valid ~ .success-message{
+    display: block;
+}
+
+.error-message{
+    color: #ED0131;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+.success-message{
+    color:#0E6245;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 1px solid #0048D9;
+}
+
+     /*text-area*/
+textarea{
+    min-height: 139px;
+}
+
+
+    /*select*/
+select{
+    background: url(./arrow.svg) no-repeat center right 12px;
+    background-color: #F8FAFC;
+}
+
+option{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+select:required:invalid {
+    color: #B8BCCA
+  }
+ 
+
+    /*submit*/
+input[type = "submit"] {
+    max-width: 92px;
+    min-height: 32px;
+    background: #0048D9;
+    border-radius: 6px;
+    color: #F8FAFC;
+    padding: 4px 16px;
+    margin-top: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+   
+}
+input[type = "submit"]:hover{
+    background-color: #002266;
+    border-radius: 6px;
+}
+
+
+

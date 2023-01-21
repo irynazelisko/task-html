@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Work with forms</title>
+    <link rel="stylesheet" href="./formStyles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Hire me</h1>
-    <h3>Contact information</h3>
-    <table border ="1" , cellspacing = "0", cellpadding = "5px" > 
+
+<div class="container">
+
+    <h1 class="main-title">Hire me</h1>
+    <h3 class="main-subtitle">Contact information</h3>
+
+    <table > 
         <thead>
             <tr>
                 <th><strong>Phone</strong></th>
@@ -22,41 +30,51 @@
         </thead>
     </table>
        
-<form>
-    
-<fieldset>
-    <legend>Contact form</legend>
+<form class="form" action="/forms.html">
+<fieldset >
+    <legend class="title-legend">Contact form</legend>
+
+    <div class="label-container">
     <label>
-        E-mail*:
-        <input
+        E-mail <span class="required-pin">*</span> :
+    </label>
+        <input 
         required
-        type="text" name="email">
-     </label>
+        type="text" name="email"
+        placeholder= "Text" >
+        
+        <p class="error-message">Error message</p>
+        <p class="success-message">Success message</p>
+     
+    </div>
 
-        <br />
+<div>
+     <label for="description"> Description: </label>
+    <textarea 
+    required
+    name="description"
+    id="description"
+    placeholder= "Hint Text" ></textarea> 
 
-        <style type='text/css'>
-            textarea {
-              vertical-align: top;
-            }
-            </style>
+    <p class="error-message">Error message</p>
+</div>
 
-    <label for="description">Description:</label>
-    <textarea name="description" id="description" cols="30" rows="5"></textarea> 
-
-    <br />
-
-
-    <label for="selection">Work type:</label>
-    <select name="selection" id="selection">
+<div>
+    <label for="selection" >Work type: </label>
+    <select name="selection" id="selection"  required > 
+        <option value="" disabled selected>Text</option>
         <option value="office work">office work</option>
         <option value="remote work">remote work</option>
-        <option value="one-off project">one-off project</option>
+        <option value="one-off project">one-off project</option> 
     </select>
-    <br />
-    <input type="submit" value="Hire me">
+    <p class="error-message">Error message</p>
+</div>
+    <input
+     type="submit"
+     value="Hire me" >
 </fieldset>
 </form>
 
+</div>
 </body>
 </html>
