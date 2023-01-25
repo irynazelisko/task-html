@@ -30,7 +30,7 @@
         </thead>
     </table>
        
-<form class="form" action="/hire-me.html">
+<form class="form" action="/hire-me/hire-me.html">
 <fieldset >
     <legend class="title-legend">Contact form</legend>
 
@@ -48,7 +48,7 @@
     </div>
 
 <div>
-     <label for="description"> Description: </label>
+     <label for="description"> Description <span class="required-pin">*</span> : </label>
     <textarea 
     required
     name="description"
@@ -58,8 +58,8 @@
 </div>
 
 <div>
-    <label for="selection" >Work type: </label>
-    <select name="selection" id="selection"  required > 
+    <label for="selection" >Work type <span class="required-pin">*</span> : </label>
+    <select name="selection" id="selection" required > 
         <option value="" disabled selected>Text</option>
         <option value="office work">office work</option>
         <option value="remote work">remote work</option>
