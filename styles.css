@@ -12,6 +12,8 @@
 .wrapper{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
+    height: 1400px;
+   justify-content: center;
 }
 
 .top-line{
@@ -34,12 +36,12 @@
 .side-block{
     background-color: var(--color-side-block);
     width: 385px;
-    height: 1400px;
+   
     border: 0,5px solid var(--color-border);
     /* position: fixed; */
     z-index: 1;
     margin-top: 0;
-    flex-basis: 340px;
+    flex-basis: 385px;
     /* margin-left: 150px; */
 }
 .name-content{
@@ -96,7 +98,6 @@
                           /*cental block*/
 .central-block{
     width: 800px;
-    height: 1400px;
     padding-bottom: var(--padding-border-bottom);
     color: var(--color-text);
     border: 1px solid;
