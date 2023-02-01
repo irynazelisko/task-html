@@ -97,7 +97,7 @@
     padding-bottom: var(--padding-border-bottom);
 }
    
-                          /*cental block*/
+                      /*cental block*/
 .central-block{
     width: 800px;
     padding-bottom: var(--padding-border-bottom);
@@ -146,8 +146,21 @@
 @media screen and (max-width: 385px) {
     .wrapper {
         flex-direction: column;
-        margin: auto;
-        padding: 0;
+        margin: 0;
+        padding: 0;  
+    }
+    .side-block{
+        width: 24rem;
+    }
+    .image img{
+        width: 24rem;
+    }
+    .central-block{
+        width: 21.5rem;
+        padding: 1.2rem;
+    }
+    .central-border{
+        width: 18rem;
     }
     
 }
