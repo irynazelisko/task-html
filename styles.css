@@ -45,6 +45,7 @@
     margin-top: 0;
     /* flex-basis: 385px; */
     /* margin-left: 150px; */
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
 }
 .name-content{
     padding-left: var(--padding-left-side-block);
@@ -57,13 +58,20 @@
 .surname{
     color: var(--color-primary);
 }
-.image{
-    padding-bottom: 10px;
-    padding-top: 20px;
+
+.image:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transform-origin: left;
+    box-shadow: 0px 2px 15px 5px rgba(201, 24, 27, 0.32);
+    z-index: auto;
 }
 .position-name {
     font-weight: bold ;
     font-size: 40px;
+}
+.name-content{
+    padding-bottom: 15px;
 }
 .hire-me-link{
     font-size: 20px;
@@ -79,6 +87,7 @@
 .info-content{
     padding-left: var(--padding-left-side-block);
     padding-right: 20px;
+    
 }
 .languages-content{
     font-weight: 600;
@@ -86,6 +95,7 @@
     color: var(--color-text);
 }
 .side-title{
+    padding-top: 10px;
     font-weight: 600;
     font-size: 32px;
     padding-bottom: var(--size-bottom-side-space);
@@ -125,7 +135,6 @@
     text-decoration: none;
 }
 
-
        /*skills*/
 .skill-list{
     display: flex;
@@ -139,6 +148,14 @@
     font-weight: bold;
 }
 .work-descr{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .7;
+}
+.work-descr:hover{
+    opacity: 1;
+}
+.ed-descr{
     font-size: 14px;
     font-weight: 400;
 }
