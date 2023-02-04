@@ -12,7 +12,7 @@
 .wrapper{
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    height: 1400px;
+    max-height: 1400px;
    justify-content: center;
 }
 
@@ -36,7 +36,7 @@
                                 /*side-block*/
 .side-block{
     background-color: var(--color-side-block);
-    width: 385px;
+    max-width: 385px;
     border: 0,5px solid var(--color-border);
     margin-top: 0;
     box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
@@ -97,13 +97,13 @@
 }
 .side-border{
     border-bottom: 6px solid var(--color-border);
-    width: 289px;
+    max-width: 289px;
     padding-bottom: var(--padding-border-bottom);
 }
    
                       /*cental block*/
 .central-block{
-    width: 800px;
+    max-width: 800px;
     padding-bottom: var(--padding-border-bottom);
     color: var(--color-text);
     border: 1px solid;
@@ -115,7 +115,7 @@
 
 .central-border{
     border-bottom: 6px solid var(--color-border);
-    width: 659px;
+    max-width: 659px;
 }
 
 .central-title{
@@ -131,11 +131,7 @@
 
        /*skills*/
 .skill-list{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding-left: 5px;
-    padding-right: 170px;
+    column-count: 2;
 }
       /* work and education description*/
 .bold{
