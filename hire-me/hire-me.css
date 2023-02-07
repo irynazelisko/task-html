@@ -15,11 +15,22 @@ textarea {
     position: absolute;
     top: calc(50% - 420px);
     left:calc(50% - 512px);
-    /* margin: auto; */
     font-family: 'IBM Plex Sans', sans-serif;
     font-style: normal;
     background: #ffffff;
     padding: 20px;
+    animation: rescaleForm 2s ease-in-out ;
+}
+
+@keyframes rescaleForm{
+from{
+    transform: scale(2);
+    opacity: 0;
+}
+to{
+    transform: scale(1);
+    opacity: 1;
+}
 }
 .main-title{
     color: #0048D9 ;
