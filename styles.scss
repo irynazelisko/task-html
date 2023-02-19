@@ -9,8 +9,6 @@
 --padding-right-central-block: 55px;
 --padding-border-bottom: 28px;
 }
-$sideUp: 2s ease-out;
-$centralUp: 2,5 ease-out;
 
 .wrapper{
     display: flex;
@@ -31,7 +29,7 @@ $centralUp: 2,5 ease-out;
             color: var(--color-text);
             }
             @mixin sideUp ($sideUp) {
-              animation: sideUp 2s ease-out;
+              animation: sideUp $sideUp ease-out;
               }
 
             .side-block{
@@ -40,7 +38,7 @@ $centralUp: 2,5 ease-out;
               border: 0,5px solid var(--color-border);
               box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
               z-index: 1;
-              @include sideUp($sideUp);
+              @include sideUp(2s);
               }
                 @keyframes sideUp {
               80% {
@@ -113,7 +111,7 @@ $centralUp: 2,5 ease-out;
                 }
 
                 @mixin centralUp($centralUp) {
-                  animation: centralUp 2,5 ease-in-out;
+                  animation: centralUp $centralUp ease-in-out;
               }
                 .central-block{
                   max-width: 800px;
@@ -122,7 +120,7 @@ $centralUp: 2,5 ease-out;
                   border: 1px solid;
                   padding-left: var(--padding-left-central-block);
                   padding-right: var(--padding-right-central-block) ;
-                  @include centralUp($centralUp)
+                  @include centralUp(2.5s)
                   }
       
                   @keyframes centralUp{

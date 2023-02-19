@@ -138,7 +138,7 @@
   border: 1px solid;
   padding-left: var(--padding-left-central-block);
   padding-right: var(--padding-right-central-block);
-  animation: centralUp 2, 5 ease-in-out;
+  animation: centralUp 2.5s ease-in-out;
 }
 
 @keyframes centralUp {
