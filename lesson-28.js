@@ -22,12 +22,16 @@ for (let i = 0; i < sections.length; i++) {
 
 document.addEventListener("keydown", function (event) {
   if (event.key === "a") {
-    document.getElementById("sectionA").scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+     const section = document.getElementById("sectionA")
+     section.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
   } else if (event.key === "b") {
-    document.getElementById("sectionB").scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    const section = document.getElementById("sectionB")
+    section.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
   } else if (event.key === "c") {
-    document.getElementById("sectionC").scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    const section = document.getElementById("sectionC")
+    section.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
   } else if (event.key === "d") {
-    document.getElementById("sectionD").scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    const section = document.getElementById("sectionD")
+    section.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
   }
 });
