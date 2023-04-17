@@ -12,7 +12,7 @@ image.addEventListener("click", function () {
 /* Завдання №2 */
 
 const sections = document.querySelectorAll('.central-title');
-let letters = ["a", "b", "c", "d"]
+let letters = ["a", "b", "c", "d","e"]
 
 for (let i = 0; i < sections.length; i++) {
   const title = sections[i];
@@ -31,6 +31,9 @@ document.addEventListener("keydown", function (event) {
     const section = document.getElementById("sectionC")
     section.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
   } else if (event.key === "d") {
+    const section = document.getElementById("sectionD")
+    section.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+  } else if (event.key === "e") {
     const section = document.getElementById("sectionD")
     section.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
   }

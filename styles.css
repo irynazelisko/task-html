@@ -28,7 +28,7 @@
 .wrapper {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  max-height: 1400px;
+  max-height: 2000px;
   justify-content: center;
 }
 
