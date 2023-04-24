@@ -16,7 +16,7 @@ class GithubApi {
 };
 
 // Створення нового екземпляру класу та використання методу getRepos()
-// const api = new GithubApi('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', 'irynazelisko');
+const api = new GithubApi('', 'irynazelisko');
 
 const reposList = document.getElementById("repositories-list");
 
